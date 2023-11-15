@@ -1,7 +1,7 @@
 ## Personal website made by tzysocreative
 # tzysocreative.com
 
-[![N|Solid](https://tzysocreative.tz77.repl.co/tzy-w.png)](https://nodesource.com/products/nsolid)
+[![N|Solid]([https://tzysocreative.tz77.repl.co/tzy-w.png](https://tzysocreative.tz77.repl.co/assets/img/tzy-w.png))](https://nodesource.com/products/nsolid)
 
 [![Website Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://tzysocreative.com)
 
