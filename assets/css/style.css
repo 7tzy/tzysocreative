@@ -12,22 +12,22 @@ html {
 
 @font-face {
   font-family: poppins-reg;
-  src: url(https://tocopy.tz77.repl.co/assets/fonts/poppins-reg.otf);
+  src: url(/assets/fonts/poppins-reg.otf);
 }
 
 @font-face {
   font-family: poppins-black;
-  src: url(https://tocopy.tz77.repl.co/assets/fonts/poppins-black.otf);
+  src: url(/assets/fonts/poppins-black.otf);
 }
 
 @font-face {
   font-family: poppins-eb;
-  src: url(https://tocopy.tz77.repl.co/assets/fonts/poppins-extrabold.otf);
+  src: url(/assets/fonts/poppins-extrabold.otf);
 }
 
 @font-face {
   font-family: poppins-ebi;
-  src: url(https://tocopy.tz77.repl.co/assets/fonts/.font-poppins-extrabolditalic.otf);
+  src: url(/assets/fonts/.font-poppins-extrabolditalic.otf);
 }
 
 .font-poppins-reg {
