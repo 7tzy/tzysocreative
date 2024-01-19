@@ -13,19 +13,19 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 //Custom 400 errors
-ErrorDocument 400 error/400.html
+ErrorDocument 400 https://tzysocreative.com/error/400.html
 
 //Custom 401 errors
-ErrorDocument 401 error/401.html
+ErrorDocument 401 https://tzysocreative.com/error/401.html
 
 //Custom 403 errors
-ErrorDocument 403 error/403.html
+ErrorDocument 403 https://tzysocreative.com/error/403.html
 
 //Custom 404 errors
-ErrorDocument 404 error/404.html
+ErrorDocument 404 https://tzysocreative.com/error/404.html
 
 //Custom 500 errors
-ErrorDocument 500 error/500.html
+ErrorDocument 500 https://tzysocreative.com/error/500.html
 
 //Prevent directory listings
 Options All -Indexes
