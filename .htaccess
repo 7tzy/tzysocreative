@@ -4,6 +4,14 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^tzysocreative.com[nc]
 RewriteRule ^(.*)$ http://www.tzysocreative.com/$1 [r=301,nc]
 
+//Checks for the .html from link
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+//Removes .html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
 //Custom 400 errors
 ErrorDocument 400 error/400.html
 
